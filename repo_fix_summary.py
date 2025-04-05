@@ -14,7 +14,7 @@ def analyze_commit_changes(repo_path, commit_id):
     try:
         # Ensure we're at the right commit
         subprocess.run(["git", "-C", repo_path, "checkout", commit_id], 
-                    check=True, capture_output=True)
+                check=True, capture_output=True)
         
         # Get commit details
         commit_info = subprocess.run(
@@ -22,7 +22,7 @@ def analyze_commit_changes(repo_path, commit_id):
             check=True, capture_output=True, text=True
         ).stdout.strip().split("|")
         
-        author_name, author_email, author_time, commit_message = commit_info
+        # author_name, author_email, author_time, commit_message = commit_info
         
         # Get list of files changed
         files_changed = subprocess.run(
@@ -80,29 +80,12 @@ def analyze_commit_changes(repo_path, commit_id):
         
         # Assemble results
         result = {
-            "commit_id": commit_id,
-            "author": {
-                "name": author_name,
-                "email": author_email
-            },
-            "date": {
-                "timestamp": author_time,
-                "readable": date_readable
-            },
-            "message": commit_message,
-            "stats": {
-                "files_changed": len(files_changed),
-                "total_additions": total_additions,
-                "total_deletions": total_deletions,
-                "total_changes": total_changes,
-                "file_extensions": dict(file_extensions)
-            },
             "files": {
                 file: stats for file, stats in file_stats.items()
             },
             "files_list": files_changed,
             "diff_summary": stats_summary,
-            "full_diff": diff_output[:5000] + "..." if len(diff_output) > 5000 else diff_output
+            "full_diff": diff_output
         }
         
         return result
@@ -125,57 +108,116 @@ def save_analysis_to_file(analysis, output_file):
         json.dump(analysis, f, indent=2)
     print(f"Analysis saved to {output_file}")
 
-def print_analysis_summary(analysis):
-    """
-    Print a human-readable summary of the analysis
+# def print_analysis_summary(analysis):
+#     """
+#     Print a human-readable summary of the analysis
     
-    :param analysis: Analysis results dictionary
-    """
-    if "error" in analysis:
-        print(f"Error analyzing commit: {analysis['error']}")
+#     :param analysis: Analysis results dictionary
+#     """
+#     if "error" in analysis:
+#         print(f"Error analyzing commit: {analysis['error']}")
+#         return
+
+
+#     print("\n----- CHANGED FILES -----")
+#     for file_path, stats in analysis['files'].items():
+#         print(f"{file_path}: +{stats['additions']} -{stats['deletions']} ({stats['changes']} changes)")
+    
+#     print("\n----- DIFF SUMMARY -----")
+#     print(analysis['diff_summary'])
+    
+#     # Print a truncated version of the full diff
+#     print("\n----- DIFF PREVIEW -----")
+#     diff_preview = analysis['full_diff']
+#     print(diff_preview)
+
+def clone_repo(repo_owner, repo_name, repo_playground):
+    if (repo_name) in os.listdir(repo_playground):
+        # subprocess.run(
+        #     ["rm", "-rf", f"{repo_name}"], check=True
+        # )
         return
-        
-    print("\n===== COMMIT ANALYSIS =====")
-    print(f"Commit: {analysis['commit_id']}")
-    print(f"Author: {analysis['author']['name']} <{analysis['author']['email']}>")
-    print(f"Date: {analysis['date']['readable']}")
-    print(f"Message: {analysis['message']}")
-    print("\n----- STATISTICS -----")
-    print(f"Files changed: {analysis['stats']['files_changed']}")
-    print(f"Lines added: {analysis['stats']['total_additions']}")
-    print(f"Lines deleted: {analysis['stats']['total_deletions']}")
-    print(f"Total changes: {analysis['stats']['total_changes']}")
+    os.makedirs(repo_name)
+    try:
+
+        print(
+            f"Cloning repository from https://github.com/{repo_owner}/{repo_name}.git to {repo_playground}/{repo_name}..."
+        )
+        subprocess.run(
+            [
+                "git",
+                "clone",
+                f"https://github.com/{repo_owner}/{repo_name}.git",
+                f"{repo_playground}/{repo_name}",
+            ],
+            check=True,
+        )
+        print("Repository cloned successfully.")
+    except subprocess.CalledProcessError as e:
+        print(f"An error occurred while running git command: {e}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+
+def postprocessing(analysis, repo_name, repo_path):
+    ####################### POSTPROCESSING ########################
+    valid_files_fix = []
+    for file_path, _ in analysis['files'].items():
+        if ".rst"  in file_path or ".md"  in file_path or "test" in file_path:
+            continue
+        valid_files_fix.append(file_path)
+
+    BASE_REPOS_EDITED_FILES_CONTENT_PATH = "repos_edited_files"
+    SPECIFIC_REPOS_EDITED_FILES_CONTENT_PATH = os.path.join(BASE_REPOS_EDITED_FILES_CONTENT_PATH, repo_name)
+    SPECIFIC_COMMIT_EDITED_FILES_CONTENT_PATH = os.path.join(SPECIFIC_REPOS_EDITED_FILES_CONTENT_PATH, commit_id[:7])
+    if not os.path.exists(BASE_REPOS_EDITED_FILES_CONTENT_PATH):
+        os.makedirs(BASE_REPOS_EDITED_FILES_CONTENT_PATH, exist_ok=True)
+    if not os.path.exists(SPECIFIC_REPOS_EDITED_FILES_CONTENT_PATH):
+        os.makedirs(SPECIFIC_REPOS_EDITED_FILES_CONTENT_PATH, exist_ok=True)
+    # if not os.path.exists(os.path.join(BASE_REPOS_EDITED_FILES_CONTENT_PATH, repo_name, commit_id[:7])):
+    os.makedirs(SPECIFIC_COMMIT_EDITED_FILES_CONTENT_PATH, exist_ok=True)
     
-    print("\n----- FILE TYPES -----")
-    for ext, count in analysis['stats']['file_extensions'].items():
-        print(f".{ext}: {count} files")
-    
-    print("\n----- CHANGED FILES -----")
-    for file_path, stats in analysis['files'].items():
-        print(f"{file_path}: +{stats['additions']} -{stats['deletions']} ({stats['changes']} changes)")
-    
-    print("\n----- DIFF SUMMARY -----")
-    print(analysis['diff_summary'])
-    
-    # Print a truncated version of the full diff
-    print("\n----- DIFF PREVIEW (truncated) -----")
-    diff_preview = analysis['full_diff']
-    print(diff_preview)
+    for file_path in valid_files_fix:
+        src_path = os.path.join(repo_path, file_path)
+        dst_path = os.path.join(SPECIFIC_COMMIT_EDITED_FILES_CONTENT_PATH, file_path.split("/")[-1])
+        import shutil
+        # copy the contents of the demo.py file to  a new file called demo1.py
+        shutil.copyfile(src_path, dst_path)
+        # if os.path.exists(file_path):
+        #     print(file_path)
+        # else:
+        #     print(f"File not found: {file_path}")
+
 
 # Example usage
 if __name__ == "__main__":
-    # ('CVE-2012-4520', '9305c0e12d43c4df999c3301a1f0c742264a657e', 'https://github.com/django/django')
-    repo_playground = "."
-    repo_name = "django"
-    commit_id = "9305c0e12d43c4df999c3301a1f0c742264a657e"
+    with open('repos_fixes/filtered_fixes.json', 'r') as f:
+        repos_fixes = json.load(f)
 
-    repo_path = os.path.join(repo_playground, repo_name)
+    # path of the folder where the repositories will be cloned
+    repo_playground = "."
     
-    # Analyze the commit
-    analysis = analyze_commit_changes(repo_path, commit_id)
+    # constants to access elements in the repos_fixes list
+    REPO_URL_INDEX = 2
+    COMMIT_ID_INDEX = 1
     
-    # Save analysis to file
-    save_analysis_to_file(analysis, f"{repo_name}_{commit_id[:7]}_analysis.json")
+    number = 0
     
-    # Print a summary
-    print_analysis_summary(analysis)
+    for repo in repos_fixes:
+        repo_owner, repo_name = repo[REPO_URL_INDEX].split("/")[-2:]
+        commit_id = repo[COMMIT_ID_INDEX]
+        repo_path = os.path.join(".", repo_name)
+        
+        # Clone the repository
+        clone_repo(repo_owner, repo_name, repo_playground)
+        
+        # Analyze the commit
+        analysis = analyze_commit_changes(repo_path, commit_id)
+        
+        # Save analysis to file
+        save_analysis_to_file(analysis, f"{repo_name}_{commit_id[:7]}_analysis.json")
+        
+        postprocessing(analysis, repo_name, repo_path)
+        
+        number += 1
+        if (number == 2):
+            break

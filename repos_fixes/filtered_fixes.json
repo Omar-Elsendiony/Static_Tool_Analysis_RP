@@ -30,16 +30,6 @@
         "https://github.com/openstack/nova"
     ],
     [
-        "CVE-2012-2144",
-        "041b1c44c7d6cf5429505067c32f8f35166a8bab",
-        "https://github.com/openstack/horizon"
-    ],
-    [
-        "CVE-2012-2395",
-        "6d9167e5da44eca56bdf42b5776097a6779aaadf",
-        "https://github.com/cobbler/cobbler"
-    ],
-    [
         "CVE-2012-2417",
         "9f912f13df99ad3421eff360d6a62d7dbec755c2",
         "https://github.com/Legrandin/pycrypto"
@@ -205,11 +195,6 @@
         "https://github.com/wting/autojump"
     ],
     [
-        "CVE-2013-2132",
-        "a060c15ef87e0f0e72974c7c0e57fe811bbd06a2",
-        "https://github.com/mongodb/mongo-python-driver"
-    ],
-    [
         "CVE-2013-2209",
         "4aaacbb1e628a80803ba1a55703db38fccdf7dbf",
         "https://github.com/reviewboard/reviewboard"
@@ -255,11 +240,6 @@
         "https://github.com/themoken/canto-curses"
     ],
     [
-        "CVE-2014-0040",
-        "65a4f8bebc72da71c616e2e378b7b1ac354db1a3",
-        "https://github.com/openstack/heat-templates"
-    ],
-    [
         "CVE-2014-0042",
         "65a4f8bebc72da71c616e2e378b7b1ac354db1a3",
         "https://github.com/openstack/heat-templates"
@@ -298,16 +278,6 @@
         "CVE-2014-125108",
         "d6c21fd8187c5db2a50425ff80694149e75d722e",
         "https://github.com/w3c/online-spellchecker-py"
-    ],
-    [
-        "CVE-2014-1604",
-        "fc9bbcd25b0b4f09bbd6339f710ad24c129d5d7c",
-        "https://github.com/alex/rply"
-    ],
-    [
-        "CVE-2014-1832",
-        "94428057c602da3d6d34ef75c78091066ecac5c0",
-        "https://github.com/phusion/passenger"
     ],
     [
         "CVE-2014-1858",
@@ -448,11 +418,6 @@
         "CVE-2015-1839",
         "b49d0d4b5ca5c6f31f03e2caf97cef1088eeed81",
         "https://github.com/saltstack/salt"
-    ],
-    [
-        "CVE-2015-2296",
-        "3bd8afbff29e50b38f889b2f688785a669b9aafc",
-        "https://github.com/kennethreitz/requests"
     ],
     [
         "CVE-2015-3010",
@@ -730,21 +695,6 @@
         "https://github.com/phusion/passenger"
     ],
     [
-        "CVE-2017-16615",
-        "bc795757febdcce430d89f9d08f75c32d6989d3c",
-        "https://github.com/thanethomson/MLAlchemy"
-    ],
-    [
-        "CVE-2017-16618",
-        "5d0575303f6df869a515ced4285f24ba721e0d4e",
-        "https://github.com/tadashi-aikawa/owlmixin"
-    ],
-    [
-        "CVE-2017-16763",
-        "8cc86a5ec2327e070f1d576d61bbaadf861597ea",
-        "https://github.com/bbengfort/confire"
-    ],
-    [
         "CVE-2017-16876",
         "5f06d724bc05580e7f203db2d4a4905fc1127f98",
         "https://github.com/lepture/mistune"
@@ -773,11 +723,6 @@
         "CVE-2017-5934",
         "70955a8eae091cc88fd9a6e510177e70289ec024",
         "https://github.com/moinwiki/moin-1.9"
-    ],
-    [
-        "CVE-2017-5936",
-        "1b76cefb92081efa1e88cd8f330253f857028bd2",
-        "https://github.com/openstack/nova-lxd"
     ],
     [
         "CVE-2017-7266",
@@ -915,11 +860,6 @@
         "https://github.com/anymail/django-anymail"
     ],
     [
-        "CVE-2018-7206",
-        "1845c0e4b1bff3462c91c3108c85205acd3c75a2",
-        "https://github.com/jupyterhub/oauthenticator"
-    ],
-    [
         "CVE-2018-7749",
         "c161e26cdc0d41b745b63d9f17b437f073bf7ba4",
         "https://github.com/ronf/asyncssh"
@@ -985,21 +925,6 @@
         "https://github.com/pallets/werkzeug"
     ],
     [
-        "CVE-2019-16056",
-        "8cb65d1381b027f0b09ee36bfed7f35bb4dec9a9",
-        "https://github.com/python/cpython"
-    ],
-    [
-        "CVE-2019-16766",
-        "13b12995d35b566df08a17257a23863ab6efb0ca",
-        "https://github.com/labd/wagtail-2fa"
-    ],
-    [
-        "CVE-2019-16766",
-        "a6711b29711729005770ff481b22675b35ff5c81",
-        "https://github.com/labd/wagtail-2fa"
-    ],
-    [
         "CVE-2019-16785",
         "8eba394ad75deaf9e5cd15b78a3d16b12e6b0eba",
         "https://github.com/Pylons/waitress"
@@ -1018,11 +943,6 @@
         "CVE-2019-16792",
         "575994cd42e83fd772a5f7ec98b2c56751bd3f65",
         "https://github.com/Pylons/waitress"
-    ],
-    [
-        "CVE-2019-18933",
-        "0c2cc41d2e40807baa5ee2c72987ebfb64ea2eb6",
-        "https://github.com/zulip/zulip"
     ],
     [
         "CVE-2019-19274",
@@ -1105,11 +1025,6 @@
         "https://github.com/tortoise/tortoise-orm"
     ],
     [
-        "CVE-2020-11014",
-        "ea3912c3d508ba81b280ef7d78648464f7f76fb8",
-        "https://github.com/simpleledger/Electron-Cash-SLP"
-    ],
-    [
         "CVE-2020-11054",
         "021ab572a319ca3db5907a33a59774f502b3b975",
         "https://github.com/qutebrowser/qutebrowser"
@@ -1118,11 +1033,6 @@
         "CVE-2020-11054",
         "1b7946ed14b386a24db050f2d6dba81ba6518755",
         "https://github.com/qutebrowser/qutebrowser"
-    ],
-    [
-        "CVE-2020-11075",
-        "e41786901f097fd32104447a45864073105d37db",
-        "https://github.com/anchore/anchore-engine"
     ],
     [
         "CVE-2020-11078",
@@ -1143,11 +1053,6 @@
         "CVE-2020-12607",
         "e592f106edd5acf6dacedfab2ad16fe6c735c9d1",
         "https://github.com/AntonKueltz/fastecdsa"
-    ],
-    [
-        "CVE-2020-12889",
-        "3ccde66dab4096ab5663e69f352992cc73e1160b",
-        "https://github.com/MISP/MISP-maltego"
     ],
     [
         "CVE-2020-15100",
@@ -1280,34 +1185,9 @@
         "https://github.com/mymarilyn/clickhouse-driver"
     ],
     [
-        "CVE-2020-27544",
-        "9b619ae64443997948a36dda01b420578de1af77",
-        "https://github.com/FoldingAtHome/fah-control"
-    ],
-    [
-        "CVE-2020-27619",
-        "2ef5caa58febc8968e670e39e3d37cf8eef3cab8",
-        "https://github.com/python/cpython"
-    ],
-    [
-        "CVE-2020-28975",
-        "1bf13d567d3cd74854aa8343fd25b61dd768bb85",
-        "https://github.com/scikit-learn/scikit-learn"
-    ],
-    [
-        "CVE-2020-35605",
-        "82c137878c2b99100a3cdc1c0f0efea069313901",
-        "https://github.com/kovidgoyal/kitty"
-    ],
-    [
         "CVE-2020-36631",
         "f70eb21394f75019886fbc2fb536de36161ba422",
         "https://github.com/barronwaffles/dwc_network_server_emulator"
-    ],
-    [
-        "CVE-2020-36660",
-        "9e03f68e46e85ca9c9694a6971859b3ee66f0240",
-        "https://github.com/paxswill/evesrp"
     ],
     [
         "CVE-2020-36762",
@@ -1520,11 +1400,6 @@
         "https://github.com/pygments/pygments"
     ],
     [
-        "CVE-2021-27292",
-        "2e7e8c4a7b318f4032493773732754e418279a14",
-        "https://github.com/pygments/pygments"
-    ],
-    [
         "CVE-2021-28676",
         "bb6c11fb889e6c11b0ee122b828132ee763b5856",
         "https://github.com/python-pillow/Pillow"
@@ -1572,11 +1447,6 @@
     [
         "CVE-2021-29431",
         "9e573348d81df8191bbe8c266c01999c9d57cd5f",
-        "https://github.com/matrix-org/sydent"
-    ],
-    [
-        "CVE-2021-29432",
-        "4469d1d42b2b1612b70638224c07e19623039c42",
         "https://github.com/matrix-org/sydent"
     ],
     [
@@ -1628,11 +1498,6 @@
         "CVE-2021-32633",
         "1f8456bf1f908ea46012537d52bd7e752a532c91",
         "https://github.com/zopefoundation/Zope"
-    ],
-    [
-        "CVE-2021-32646",
-        "fbe2ae8ec851a2e9e3e2370db3b812f268e8c8cb",
-        "https://github.com/Dav-Git/Dav-Cogs"
     ],
     [
         "CVE-2021-32674",
@@ -1705,11 +1570,6 @@
         "https://github.com/google/oss-fuzz-vulns"
     ],
     [
-        "CVE-2021-37697",
-        "d63c49b4cfc30c795336e4fff08cba3795e0fcc0",
-        "https://github.com/tmercswims/tmerc-cogs"
-    ],
-    [
         "CVE-2021-3828",
         "277711ab1dec729e626b27aab6fa35ea5efbd7e6",
         "https://github.com/nltk/nltk"
@@ -1765,11 +1625,6 @@
         "https://github.com/django-helpdesk/django-helpdesk"
     ],
     [
-        "CVE-2021-3967",
-        "d5db254ca8167995a1654d1c45ffc74b2fade39a",
-        "https://github.com/zulip/zulip"
-    ],
-    [
         "CVE-2021-3994",
         "a22eb0673fe0b7784f99c6b5fd343b64a6700f06",
         "https://github.com/django-helpdesk/django-helpdesk"
@@ -1781,11 +1636,6 @@
     ],
     [
         "CVE-2021-40324",
-        "d8f60bbf14a838c8c8a1dba98086b223e35fe70a",
-        "https://github.com/cobbler/cobbler"
-    ],
-    [
-        "CVE-2021-40325",
         "d8f60bbf14a838c8c8a1dba98086b223e35fe70a",
         "https://github.com/cobbler/cobbler"
     ],
@@ -1843,11 +1693,6 @@
         "CVE-2021-41192",
         "ce60d20c4e3d1537581f2f70f1308fe77ab6a214",
         "https://github.com/getredash/redash"
-    ],
-    [
-        "CVE-2021-41250",
-        "67390298852513d13e0213870e50fb3cff1424e0",
-        "https://github.com/python-discord/bot"
     ],
     [
         "CVE-2021-41265",
@@ -1960,11 +1805,6 @@
         "https://github.com/nltk/nltk"
     ],
     [
-        "CVE-2021-43857",
-        "49bcb19be5e0320e7e1535f34fe00f16a3cf3b28",
-        "https://github.com/Gerapy/Gerapy"
-    ],
-    [
         "CVE-2021-45470",
         "c621f9f0693a728b93ff3b964f948a1d25917207",
         "https://github.com/cve-search/cve-search"
@@ -2035,11 +1875,6 @@
         "https://github.com/ipython/ipython"
     ],
     [
-        "CVE-2022-21706",
-        "88917019f03860609114082cdc0f31a561503f9e",
-        "https://github.com/zulip/zulip"
-    ],
-    [
         "CVE-2022-21712",
         "af8fe78542a6f2bf2235ccee8158d9c88d31e8e2",
         "https://github.com/twisted/twisted"
@@ -2048,11 +1883,6 @@
         "CVE-2022-21716",
         "89c395ee794e85a9657b112c4351417850330ef9",
         "https://github.com/twisted/twisted"
-    ],
-    [
-        "CVE-2022-21797",
-        "b90f10efeb670a2cc877fb88ebb3f2019189e059",
-        "https://github.com/joblib/joblib"
     ],
     [
         "CVE-2022-22984",
@@ -2100,11 +1930,6 @@
         "https://github.com/nim-lang/Nim"
     ],
     [
-        "CVE-2022-23604",
-        "72dd9323cb4c90f3a5accac7087605375d178246",
-        "https://github.com/Twentysix26/x26-Cogs"
-    ],
-    [
         "CVE-2022-23651",
         "62476638986e5b6d7459aca5ef8ce220760226e0",
         "https://github.com/Backblaze/b2-sdk-python"
@@ -2118,16 +1943,6 @@
         "CVE-2022-23656",
         "e090027adcbf62737d5b1f83a9618a9500a49321",
         "https://github.com/zulip/zulip"
-    ],
-    [
-        "CVE-2022-23948",
-        "1a4f31a6368d651222683c9debe7d6832db6f607",
-        "https://github.com/keylime/keylime"
-    ],
-    [
-        "CVE-2022-23948",
-        "d37c406e69cb6689baa2fb7964bad75209703724",
-        "https://github.com/keylime/keylime"
     ],
     [
         "CVE-2022-23949",
@@ -2147,16 +1962,6 @@
     [
         "CVE-2022-23950",
         "ea5d0373fa2c050d5d95404eb779be7e8327b911",
-        "https://github.com/keylime/keylime"
-    ],
-    [
-        "CVE-2022-23951",
-        "6e44758b64b0ee13564fc46e807f4ba98091c355",
-        "https://github.com/keylime/keylime"
-    ],
-    [
-        "CVE-2022-23952",
-        "883085d6a4bcea3012729014d5b8e15ecd65fc7c",
         "https://github.com/keylime/keylime"
     ],
     [
@@ -2455,11 +2260,6 @@
         "https://github.com/ikus060/rdiffweb"
     ],
     [
-        "CVE-2022-3363",
-        "c27c46bac656b1da74f28eac1b52dfa5df76e6f2",
-        "https://github.com/ikus060/rdiffweb"
-    ],
-    [
         "CVE-2022-3364",
         "b62c479ff6979563c7c23e7182942bc4f460a2c7",
         "https://github.com/ikus060/rdiffweb"
@@ -2513,11 +2313,6 @@
         "CVE-2022-36081",
         "8d1f94ec86b5b6c3df8ef10051facfb511a78450",
         "https://github.com/Linbreux/wikmd"
-    ],
-    [
-        "CVE-2022-36082",
-        "439cc2825198ebc12b3310c95c39a8c7710c9b42",
-        "https://github.com/mansuf/mangadex-downloader"
     ],
     [
         "CVE-2022-36087",
@@ -2620,11 +2415,6 @@
         "https://github.com/collective/collective.dms.basecontent"
     ],
     [
-        "CVE-2022-45198",
-        "11918eac0628ec8ac0812670d9838361ead2d6a4",
-        "https://github.com/python-pillow/Pillow"
-    ],
-    [
         "CVE-2022-45199",
         "2444cddab2f83f28687c7c20871574acbb6dbcf3",
         "https://github.com/python-pillow/Pillow"
@@ -2685,11 +2475,6 @@
         "https://github.com/ikus060/rdiffweb"
     ],
     [
-        "CVE-2022-4719",
-        "bc4bed89affcba71251fe54ed10639da9d392c1d",
-        "https://github.com/ikus060/rdiffweb"
-    ],
-    [
         "CVE-2022-4720",
         "6afaae56a29536f0118b3380d296c416aa6d078d",
         "https://github.com/ikus060/rdiffweb"
@@ -2730,24 +2515,9 @@
         "https://github.com/kbase/metrics"
     ],
     [
-        "CVE-2022-4869",
-        "022111407d34815c16c6eada2de69ca34084dc0d",
-        "https://github.com/evolution-events/Artaxerxes"
-    ],
-    [
         "CVE-2022-4885",
         "53b3f2fc34af0bb32afbcee29d18213e61471d87",
         "https://github.com/sviehb/jefferson"
-    ],
-    [
-        "CVE-2022-4968",
-        "4c39b75b5c6ae7d976bda6da68da60d9a7f085ee",
-        "https://github.com/canonical/netplan"
-    ],
-    [
-        "CVE-2022-4969",
-        "1a15fad5e06ae693eb9b8908363d2c8ef455104e",
-        "https://github.com/bwoodsend/rockhopper"
     ],
     [
         "CVE-2023-0055",
@@ -2782,11 +2552,6 @@
     [
         "CVE-2023-0434",
         "a2b1eb1028f45ac58dea5f58593c1d3db2b4a104",
-        "https://github.com/pyload/pyload"
-    ],
-    [
-        "CVE-2023-0435",
-        "431ea6f0371d748df66b344a05ca1a8e0310cff3",
         "https://github.com/pyload/pyload"
     ],
     [
@@ -2860,11 +2625,6 @@
         "https://github.com/grpc/grpc"
     ],
     [
-        "CVE-2023-1625",
-        "a49526c278e52823080c7f3fcb72785b93fd4dcb",
-        "https://github.com/openstack/heat"
-    ],
-    [
         "CVE-2023-1712",
         "5fc84904f198de661d5b933fde756aa922bf09f1",
         "https://github.com/deepset-ai/haystack"
@@ -2920,11 +2680,6 @@
         "https://github.com/pandora-analysis/pandora"
     ],
     [
-        "CVE-2023-22903",
-        "e19e539356df77f6f59e7d1eea22d452b268e120",
-        "https://github.com/LibrePhotos/librephotos"
-    ],
-    [
         "CVE-2023-2356",
         "f73147496e05c09a8b83d95fb4f1bf86696c6342",
         "https://github.com/mlflow/mlflow"
@@ -2965,11 +2720,6 @@
         "https://github.com/pallets/werkzeug"
     ],
     [
-        "CVE-2023-25657",
-        "d47f157e83b0c353bb2b697f911882c71cf90ca0",
-        "https://github.com/nautobot/nautobot"
-    ],
-    [
         "CVE-2023-26047",
         "d818d1645832d1a02cd210c7680e692d2bf4313b",
         "https://github.com/dwisiswant0/cwa-filter-rules"
@@ -2998,16 +2748,6 @@
         "CVE-2023-26151",
         "f6603daa34a93a658f0e176cb0b9ee5a6643b262",
         "https://github.com/FreeOpcUa/opcua-asyncio"
-    ],
-    [
-        "CVE-2023-26302",
-        "53ca3e9c2b9e9b295f6abf7f4ad2730a9b70f68c",
-        "https://github.com/executablebooks/markdown-it-py"
-    ],
-    [
-        "CVE-2023-26303",
-        "ae03c6107dfa18e648f6fdd1280f5b89092d5d49",
-        "https://github.com/executablebooks/markdown-it-py"
     ],
     [
         "CVE-2023-27489",
@@ -3150,11 +2890,6 @@
         "https://github.com/vyperlang/vyper"
     ],
     [
-        "CVE-2023-32059",
-        "c3e68c302aa6e1429946473769dd1232145822ac",
-        "https://github.com/vyperlang/vyper"
-    ],
-    [
         "CVE-2023-32076",
         "3a21d84f40811b7d191fa7bd17265c1f99599afd",
         "https://github.com/in-toto/in-toto"
@@ -3235,16 +2970,6 @@
         "https://github.com/snowflakedb/snowflake-connector-python"
     ],
     [
-        "CVE-2023-34237",
-        "422b4fce7bfd56e95a315be0400cdfdc585df7cc",
-        "https://github.com/sabnzbd/sabnzbd"
-    ],
-    [
-        "CVE-2023-34237",
-        "e3a722664819d1c7c8fab97144cc299b1c18b429",
-        "https://github.com/sabnzbd/sabnzbd"
-    ],
-    [
         "CVE-2023-34457",
         "d57c4a269bba3b9a0c5bfa20292955b849006d9e",
         "https://github.com/MechanicalSoup/MechanicalSoup"
@@ -3263,11 +2988,6 @@
         "CVE-2023-35934",
         "f8b4bcc0a791274223723488bfbfc23ea3276641",
         "https://github.com/yt-dlp/yt-dlp"
-    ],
-    [
-        "CVE-2023-3674",
-        "95ce3d86bd2c53009108ffda2dcf553312d733db",
-        "https://github.com/keylime/keylime"
     ],
     [
         "CVE-2023-36811",
@@ -3335,11 +3055,6 @@
         "https://github.com/certifi/python-certifi"
     ],
     [
-        "CVE-2023-38201",
-        "9e5ac9f25cd400b16d5969f531cee28290543f2a",
-        "https://github.com/keylime/keylime"
-    ],
-    [
         "CVE-2023-38501",
         "007d948cb982daa05bc6619cd20ee55b7e834c38",
         "https://github.com/9001/copyparty"
@@ -3390,19 +3105,9 @@
         "https://github.com/jupyter-server/jupyter_server"
     ],
     [
-        "CVE-2023-40267",
-        "ca965ecc81853bca7675261729143f54e5bf4cdd",
-        "https://github.com/gitpython-developers/GitPython"
-    ],
-    [
         "CVE-2023-4033",
         "6dde93758d42455cb90ef324407919ed67668b9b",
         "https://github.com/mlflow/mlflow"
-    ],
-    [
-        "CVE-2023-40570",
-        "01e0558825b8f7ec17d3b691aa072daf122fcc74",
-        "https://github.com/simonw/datasette"
     ],
     [
         "CVE-2023-40581",
@@ -3445,19 +3150,9 @@
         "https://github.com/ethyca/fides"
     ],
     [
-        "CVE-2023-41334",
-        "22057d37b1313f5f5a9b5783df0a091d978dccb5",
-        "https://github.com/astropy/astropy"
-    ],
-    [
         "CVE-2023-4138",
         "feef0d7b11d86aed29bf98c21526088117964d85",
         "https://github.com/ikus060/rdiffweb"
-    ],
-    [
-        "CVE-2023-41419",
-        "2f53c851eaf926767fbac62385615efd4886221c",
-        "https://github.com/gevent/gevent"
     ],
     [
         "CVE-2023-41885",
@@ -3483,11 +3178,6 @@
         "CVE-2023-43364",
         "16016506f7bf92b0f21f51841d599126d6fcd15b",
         "https://github.com/ArjunSharda/Searchor"
-    ],
-    [
-        "CVE-2023-43796",
-        "daec55e1fe120c564240c5386e77941372bf458f",
-        "https://github.com/matrix-org/synapse"
     ],
     [
         "CVE-2023-43804",
@@ -3518,11 +3208,6 @@
         "CVE-2023-45803",
         "4e98d57809dacab1cbe625fddeec1a290c478ea9",
         "https://github.com/urllib3/urllib3"
-    ],
-    [
-        "CVE-2023-45805",
-        "6853e2642dfa281d4a9958fbc6c95b7e32d84831",
-        "https://github.com/pdm-project/pdm"
     ],
     [
         "CVE-2023-45813",
@@ -3610,11 +3295,6 @@
         "https://github.com/NC3-LU/TestingPlatform"
     ],
     [
-        "CVE-2023-48311",
-        "3ba4b665b6ca6027ea7a032d7ca3eab977574626",
-        "https://github.com/jupyterhub/dockerspawner"
-    ],
-    [
         "CVE-2023-48699",
         "73eb03bd75365e112b39877e26ef52853f5e9f57",
         "https://github.com/ubertidavide/fastbots"
@@ -3633,11 +3313,6 @@
         "CVE-2023-49080",
         "0056c3aa52cbb28b263a7a609ae5f17618b36652",
         "https://github.com/jupyter-server/jupyter_server"
-    ],
-    [
-        "CVE-2023-49081",
-        "1e86b777e61cf4eefc7d92fa57fa19dcc676013b",
-        "https://github.com/aio-libs/aiohttp"
     ],
     [
         "CVE-2023-49082",
@@ -3680,11 +3355,6 @@
         "https://github.com/mindsdb/mindsdb"
     ],
     [
-        "CVE-2023-49796",
-        "8d13c9c28ebcf3b36509eb679378004d4648d8fe",
-        "https://github.com/mindsdb/mindsdb"
-    ],
-    [
         "CVE-2023-49801",
         "c235bcc2ee65e4a0dfb10284cf2cbc750213efeb",
         "https://github.com/Lif-Platforms/Lif-Auth-Server"
@@ -3718,11 +3388,6 @@
         "CVE-2023-50266",
         "17add7fbb3ae1919a40d505470d499d46df9ae6b",
         "https://github.com/morpheus65535/bazarr"
-    ],
-    [
-        "CVE-2023-50715",
-        "dbfc5ea8f96bde6cd165892f5a6a6f9a65731c76",
-        "https://github.com/home-assistant/core"
     ],
     [
         "CVE-2023-51390",
@@ -3760,26 +3425,6 @@
         "https://github.com/modoboa/modoboa"
     ],
     [
-        "CVE-2023-6395",
-        "0740bd0ca8d487301881541028977d120f8b8933",
-        "https://github.com/xsuchy/templated-dictionary"
-    ],
-    [
-        "CVE-2023-6395",
-        "bcd90f0dafa365575c4b101e6f5d98c4ef4e4b69",
-        "https://github.com/xsuchy/templated-dictionary"
-    ],
-    [
-        "CVE-2023-6507",
-        "10e9bb13b8dcaa414645b9bd10718d8f7179e82b",
-        "https://github.com/python/cpython"
-    ],
-    [
-        "CVE-2023-6507",
-        "9fe7655c6ce0b8e9adc229daf681b6d30e6b1610",
-        "https://github.com/python/cpython"
-    ],
-    [
         "CVE-2023-6568",
         "28ff3f94994941e038f2172c6484b65dc4db6ca1",
         "https://github.com/mlflow/mlflow"
@@ -3788,11 +3433,6 @@
         "CVE-2023-6572",
         "5b5af1899dd98d63e1f9b48a93601c2db1f56520",
         "https://github.com/gradio-app/gradio"
-    ],
-    [
-        "CVE-2023-6597",
-        "81c16cd94ec38d61aa478b9a452436dc3b1b524d",
-        "https://github.com/python/cpython"
     ],
     [
         "CVE-2023-6709",
@@ -3855,21 +3495,6 @@
         "https://github.com/jimmo/micropython"
     ],
     [
-        "CVE-2024-0397",
-        "bce693111bff906ccf9281c22371331aaff766ab",
-        "https://github.com/python/cpython"
-    ],
-    [
-        "CVE-2024-0450",
-        "66363b9a7b9fe7c99eba3a185b74c5fdbf842eba",
-        "https://github.com/python/cpython"
-    ],
-    [
-        "CVE-2024-0450",
-        "70497218351ba44bffc8b571201ecb5652d84675",
-        "https://github.com/python/cpython"
-    ],
-    [
         "CVE-2024-0520",
         "400c226953b4568f4361bc0a0c223511652c2b9d",
         "https://github.com/mlflow/mlflow"
@@ -3915,39 +3540,9 @@
         "https://github.com/zenml-io/zenml"
     ],
     [
-        "CVE-2024-2035",
-        "b95f083efffa56831cd41d8ed536aeb0b6038fa3",
-        "https://github.com/zenml-io/zenml"
-    ],
-    [
-        "CVE-2024-2083",
-        "00e934f33a243a554f5f65b80eefd5ea5117367b",
-        "https://github.com/zenml-io/zenml"
-    ],
-    [
         "CVE-2024-21485",
         "9920073c9a8619ae8f90fcec1924f2f3a4332a8c",
         "https://github.com/plotly/dash"
-    ],
-    [
-        "CVE-2024-21502",
-        "57fc5689c95d649dab7ef60cc99ac64589f01e36",
-        "https://github.com/AntonKueltz/fastecdsa"
-    ],
-    [
-        "CVE-2024-21503",
-        "f00093672628d212b8965a8993cee8bedf5fe9b8",
-        "https://github.com/psf/black"
-    ],
-    [
-        "CVE-2024-21520",
-        "3b41f0124194430da957b119712978fa2266b642",
-        "https://github.com/encode/django-rest-framework"
-    ],
-    [
-        "CVE-2024-21644",
-        "bb22063a875ffeca357aaf6e2edcd09705688c40",
-        "https://github.com/pyload/pyload"
     ],
     [
         "CVE-2024-21645",
@@ -3957,11 +3552,6 @@
     [
         "CVE-2024-21649",
         "eac19db737145d3ca987adf037a454fae0790ddd",
-        "https://github.com/vantage6/vantage6"
-    ],
-    [
-        "CVE-2024-21653",
-        "3fcc6e6a8bd1142fd7a558d8fdd2b246e55c8841",
         "https://github.com/vantage6/vantage6"
     ],
     [
@@ -4060,11 +3650,6 @@
         "https://github.com/casework/CASE-Utilities-Python"
     ],
     [
-        "CVE-2024-22200",
-        "92e0fb5102b544d5bcc23980d973573733e2e020",
-        "https://github.com/vantage6/vantage6-UI"
-    ],
-    [
         "CVE-2024-22203",
         "3a2e0b262e4a076a20416b45e6b6f23fd265aeda",
         "https://github.com/benbusby/whoogle-search"
@@ -4105,16 +3690,6 @@
         "https://github.com/vyperlang/vyper"
     ],
     [
-        "CVE-2024-22423",
-        "de015e930747165dbb8fcd360f8775fd973b7d6e",
-        "https://github.com/yt-dlp/yt-dlp"
-    ],
-    [
-        "CVE-2024-22423",
-        "ff07792676f404ffff6ee61b5638c9dc1a33a37a",
-        "https://github.com/yt-dlp/yt-dlp"
-    ],
-    [
         "CVE-2024-2260",
         "68bcb3ba60cba9729c9713a49c39502d40fb945e",
         "https://github.com/zenml-io/zenml"
@@ -4140,19 +3715,9 @@
         "https://github.com/nautobot/nautobot"
     ],
     [
-        "CVE-2024-23346",
-        "c231cbd3d5147ee920a37b6ee9dd236b376bcf5a",
-        "https://github.com/materialsproject/pymatgen"
-    ],
-    [
         "CVE-2024-23637",
         "1729d167b4ae4a5835bbc7211b92c6828b1c4125",
         "https://github.com/OctoPrint/OctoPrint"
-    ],
-    [
-        "CVE-2024-23823",
-        "70bb4e1d889230a841eb364d6c03accd7dd01a41",
-        "https://github.com/vantage6/vantage6"
     ],
     [
         "CVE-2024-23829",
@@ -4163,11 +3728,6 @@
         "CVE-2024-2383",
         "f863fde1269bc355951f8cfc826c0244d88ad5e9",
         "https://github.com/zenml-io/zenml"
-    ],
-    [
-        "CVE-2024-24562",
-        "68dfa661415182da0e5717bd58db3d00aedcbd2e",
-        "https://github.com/vantage6/vantage6-UI"
     ],
     [
         "CVE-2024-24762",
@@ -4185,11 +3745,6 @@
         "https://github.com/tiangolo/fastapi"
     ],
     [
-        "CVE-2024-24770",
-        "aecfd6d0e83165a41a60ebd52d2287b0217be26b",
-        "https://github.com/vantage6/vantage6"
-    ],
-    [
         "CVE-2024-24808",
         "fe94451dcc2be90b3889e2fd9d07b483c8a6dccd",
         "https://github.com/pyload/pyload"
@@ -4200,31 +3755,6 @@
         "https://github.com/zopefoundation/Products.SQLAlchemyDA"
     ],
     [
-        "CVE-2024-25123",
-        "f23033729ee930b97f8bdbd07df0174311c9b658",
-        "https://github.com/Open-MSS/MSS"
-    ],
-    [
-        "CVE-2024-25128",
-        "6336456d83f8f111c842b2b53d1e89627f2502c8",
-        "https://github.com/dpgaspar/Flask-AppBuilder"
-    ],
-    [
-        "CVE-2024-25639",
-        "1dfd6d7391862d3564db7f4875216880b73cb6cc",
-        "https://github.com/khoj-ai/khoj"
-    ],
-    [
-        "CVE-2024-25722",
-        "35753b892c2c4361b318d68dfa3e251c85ce889c",
-        "https://github.com/netease-youdao/QAnything"
-    ],
-    [
-        "CVE-2024-26130",
-        "97d231672763cdb5959a3b191e692a362f1b9e55",
-        "https://github.com/pyca/cryptography"
-    ],
-    [
         "CVE-2024-26134",
         "387755eacf0be35591a478d3c67fe10618a6d542",
         "https://github.com/agronholm/cbor2"
@@ -4233,406 +3763,6 @@
         "CVE-2024-26134",
         "4de6991ba29bf2290d7b9d83525eda7d021873df",
         "https://github.com/agronholm/cbor2"
-    ],
-    [
-        "CVE-2024-26151",
-        "84c495da20a91640a1ca551ace17df7f3be644aa",
-        "https://github.com/FelixSchwarz/mjml-python"
-    ],
-    [
-        "CVE-2024-26151",
-        "8d410b7a500703080bb14ed7e3d2663fe16767e6",
-        "https://github.com/FelixSchwarz/mjml-python"
-    ],
-    [
-        "CVE-2024-27083",
-        "3d17741886e4b3c384d0570de69689e4117aa812",
-        "https://github.com/dpgaspar/Flask-AppBuilder"
-    ],
-    [
-        "CVE-2024-27097",
-        "81b56c55e5e3651d7fcf9642cd5a489a9b62212c",
-        "https://github.com/ckan/ckan"
-    ],
-    [
-        "CVE-2024-27290",
-        "4801ac7ff7c90df00ac09523077930cdb6dea2aa",
-        "https://github.com/jhpyle/docassemble"
-    ],
-    [
-        "CVE-2024-27291",
-        "4801ac7ff7c90df00ac09523077930cdb6dea2aa",
-        "https://github.com/jhpyle/docassemble"
-    ],
-    [
-        "CVE-2024-27292",
-        "97f77dc486a26a22ba804765bfd7058aabd600c9",
-        "https://github.com/jhpyle/docassemble"
-    ],
-    [
-        "CVE-2024-27305",
-        "24b6c79c8921cf1800e27ca144f4f37023982bbb",
-        "https://github.com/aio-libs/aiosmtpd"
-    ],
-    [
-        "CVE-2024-27306",
-        "28335525d1eac015a7e7584137678cbb6ff19397",
-        "https://github.com/aio-libs/aiohttp"
-    ],
-    [
-        "CVE-2024-27318",
-        "66b7fb630903fdcf3e83b6b6d56d82e904264a20",
-        "https://github.com/onnx/onnx"
-    ],
-    [
-        "CVE-2024-27319",
-        "08a399ba75a805b7813ab8936b91d0e274b08287",
-        "https://github.com/onnx/onnx"
-    ],
-    [
-        "CVE-2024-27454",
-        "b0e4d2c06ce06c6e63981bf0276e4b7c74e5845e",
-        "https://github.com/ijl/orjson"
-    ],
-    [
-        "CVE-2024-28102",
-        "90477a3b6e73da69740e00b8161f53fea19b831f",
-        "https://github.com/latchset/jwcrypto"
-    ],
-    [
-        "CVE-2024-28113",
-        "49dc5593184d7740d81e57dbbe3f971d2969dfac",
-        "https://github.com/peering-manager/peering-manager"
-    ],
-    [
-        "CVE-2024-28114",
-        "8a865fb596c11ad7caf45aef317d8fcbce7f85ff",
-        "https://github.com/peering-manager/peering-manager"
-    ],
-    [
-        "CVE-2024-28179",
-        "764e499f61a87641916a7a427d4c4b1ac3f321a9",
-        "https://github.com/jupyterhub/jupyter-server-proxy"
-    ],
-    [
-        "CVE-2024-28184",
-        "734ee8e2dc84ff3090682f3abff056d0907c8598",
-        "https://github.com/Kozea/WeasyPrint"
-    ],
-    [
-        "CVE-2024-28237",
-        "779894c1bc6478332d14bc9ed1006df1354eb517",
-        "https://github.com/OctoPrint/OctoPrint"
-    ],
-    [
-        "CVE-2024-28865",
-        "8e280fd6c0bd27ce847c67b2d216c6cbf920f88c",
-        "https://github.com/django-wiki/django-wiki"
-    ],
-    [
-        "CVE-2024-29032",
-        "b78fca114133051805d00043a404b25a33835f4d",
-        "https://github.com/Qiskit/qiskit-ibm-runtime"
-    ],
-    [
-        "CVE-2024-29033",
-        "5246b09675501b09fb6ed64022099b7644812f60",
-        "https://github.com/jupyterhub/oauthenticator"
-    ],
-    [
-        "CVE-2024-29189",
-        "902071701c4f3a8258cbaa46c28dc0a65442d1bc",
-        "https://github.com/ansys/pyansys-geometry"
-    ],
-    [
-        "CVE-2024-29189",
-        "f82346b9432b06532e84f3278125f5879b4e9f3f",
-        "https://github.com/ansys/pyansys-geometry"
-    ],
-    [
-        "CVE-2024-29199",
-        "dd623e6c3307f48b6357fcc91925bcad5192abfb",
-        "https://github.com/nautobot/nautobot"
-    ],
-    [
-        "CVE-2024-29888",
-        "22a1aa3ef0bc54156405f69146788016a7f3f761",
-        "https://github.com/saleor/saleor"
-    ],
-    [
-        "CVE-2024-29888",
-        "47cedfd7d6524d79bdb04708edcdbb235874de6b",
-        "https://github.com/saleor/saleor"
-    ],
-    [
-        "CVE-2024-30248",
-        "c419575c2467959d906154084d305648eb2b8faf",
-        "https://github.com/piccolo-orm/piccolo_admin"
-    ],
-    [
-        "CVE-2024-30251",
-        "7eecdff163ccf029fbb1ddc9de4169d4aaeb6597",
-        "https://github.com/aio-libs/aiohttp"
-    ],
-    [
-        "CVE-2024-30251",
-        "cebe526b9c34dc3a3da9140409db63014bc4cf19",
-        "https://github.com/aio-libs/aiohttp"
-    ],
-    [
-        "CVE-2024-30251",
-        "f21c6f2ca512a026ce7f0f6c6311f62d6a638866",
-        "https://github.com/aio-libs/aiohttp"
-    ],
-    [
-        "CVE-2024-30265",
-        "28faacc9b03b160fd8fa920ad045f4ec0667ab67",
-        "https://github.com/voila-dashboards/voila"
-    ],
-    [
-        "CVE-2024-30265",
-        "5542e4ae36bb5d184deaa48f95e76be477756af2",
-        "https://github.com/voila-dashboards/voila"
-    ],
-    [
-        "CVE-2024-31205",
-        "36699c6f5c99590d24f46e3d5c5b1a3c2fd072e7",
-        "https://github.com/saleor/saleor"
-    ],
-    [
-        "CVE-2024-31208",
-        "55b0aa847a61774b6a3acdc4b177a20dc019f01a",
-        "https://github.com/element-hq/synapse"
-    ],
-    [
-        "CVE-2024-31224",
-        "8af6c0cab6d96f5c4520bec85b24802e6e823f35",
-        "https://github.com/binary-husky/gpt_academic"
-    ],
-    [
-        "CVE-2024-31442",
-        "38cb7c08d4d890e8a1badadbd46f459f06e3cdcd",
-        "https://github.com/Redon-Tech/Redon-Hub"
-    ],
-    [
-        "CVE-2024-31451",
-        "d36f58230a326ecacb9c32a4ae8eac65666044f2",
-        "https://github.com/arc53/DocsGPT"
-    ],
-    [
-        "CVE-2024-31462",
-        "d9708c92b444894bce8070e4dcfaa093f8eb8d43",
-        "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
-    ],
-    [
-        "CVE-2024-31580",
-        "b5c3a17c2c207ebefcb85043f0cf94be9b2fef81",
-        "https://github.com/pytorch/pytorch"
-    ],
-    [
-        "CVE-2024-31583",
-        "9c7071b0e324f9fb68ab881283d6b8d388a4bcd2",
-        "https://github.com/pytorch/pytorch"
-    ],
-    [
-        "CVE-2024-31584",
-        "7c35874ad664e74c8e4252d67521f3986eadb0e6",
-        "https://github.com/pytorch/pytorch"
-    ],
-    [
-        "CVE-2024-31991",
-        "2a3463b7466bc297aede50046da9550d919ec56f",
-        "https://github.com/mealie-recipes/mealie"
-    ],
-    [
-        "CVE-2024-31992",
-        "2a3463b7466bc297aede50046da9550d919ec56f",
-        "https://github.com/mealie-recipes/mealie"
-    ],
-    [
-        "CVE-2024-31993",
-        "2a3463b7466bc297aede50046da9550d919ec56f",
-        "https://github.com/mealie-recipes/mealie"
-    ],
-    [
-        "CVE-2024-31994",
-        "2a3463b7466bc297aede50046da9550d919ec56f",
-        "https://github.com/mealie-recipes/mealie"
-    ],
-    [
-        "CVE-2024-32005",
-        "ed12eb14f2a6c48b388a05c04b3c5a107ea9d330",
-        "https://github.com/zauberzeug/nicegui"
-    ],
-    [
-        "CVE-2024-32022",
-        "831af8babeb75faff62bcc6a8c6a4f80354f1ff1",
-        "https://github.com/bmaltais/kohya_ss"
-    ],
-    [
-        "CVE-2024-32023",
-        "8bc67a7467f8366db1a4b9b3b14525ec763f1650",
-        "https://github.com/bmaltais/kohya_ss"
-    ],
-    [
-        "CVE-2024-32024",
-        "25bb1303fff21cb5bae17236d53504e85c1866df",
-        "https://github.com/bmaltais/kohya_ss"
-    ],
-    [
-        "CVE-2024-32025",
-        "831af8babeb75faff62bcc6a8c6a4f80354f1ff1",
-        "https://github.com/bmaltais/kohya_ss"
-    ],
-    [
-        "CVE-2024-32026",
-        "831af8babeb75faff62bcc6a8c6a4f80354f1ff1",
-        "https://github.com/bmaltais/kohya_ss"
-    ],
-    [
-        "CVE-2024-32027",
-        "831af8babeb75faff62bcc6a8c6a4f80354f1ff1",
-        "https://github.com/bmaltais/kohya_ss"
-    ],
-    [
-        "CVE-2024-32474",
-        "d5b34568d9f1c41362ccb62141532a0a2169512f",
-        "https://github.com/getsentry/sentry"
-    ],
-    [
-        "CVE-2024-32481",
-        "3de1415ee77a9244eb04bdb695e249d3ec9ed868",
-        "https://github.com/vyperlang/vyper"
-    ],
-    [
-        "CVE-2024-32481",
-        "5319cfbe14951e007ccdb323257e5ada869b35d5",
-        "https://github.com/vyperlang/vyper"
-    ],
-    [
-        "CVE-2024-32648",
-        "93287e5ac184b53b395c907d40701f721daf8177",
-        "https://github.com/vyperlang/vyper"
-    ],
-    [
-        "CVE-2024-32874",
-        "cc851555e4029647986dccc8b8ecf54afee31442",
-        "https://github.com/blakeblackshear/frigate"
-    ],
-    [
-        "CVE-2024-32879",
-        "31c3e0c7edb187004d8abbde7e9c4f7ef9098138",
-        "https://github.com/python-social-auth/social-app-django"
-    ],
-    [
-        "CVE-2024-32881",
-        "89ff07a96b41be9e05256bd252105be233f4d28a",
-        "https://github.com/danswer-ai/danswer"
-    ],
-    [
-        "CVE-2024-32969",
-        "27f4ee3fade5f4cbcf3e60899c9a2a91145e0b56",
-        "https://github.com/vantage6/vantage6"
-    ],
-    [
-        "CVE-2024-32977",
-        "5afbec8d23508edc25b0f1bdef1620580136add4",
-        "https://github.com/OctoPrint/OctoPrint"
-    ],
-    [
-        "CVE-2024-32979",
-        "42440ebd9b381534ad89d62420ebea00d703d64e",
-        "https://github.com/nautobot/nautobot"
-    ],
-    [
-        "CVE-2024-32982",
-        "57e706e7effdc182fc9a2af5981bc88afb21851b",
-        "https://github.com/litestar-org/litestar"
-    ],
-    [
-        "CVE-2024-34060",
-        "4e45fc94a31e1ee4641d608a387dfd9f9e68dbca",
-        "https://github.com/dfir-iris/iris-evtx-module"
-    ],
-    [
-        "CVE-2024-34061",
-        "c0f000b1d1ce03733460805dbbedde445fe2c762",
-        "https://github.com/dgtlmoon/changedetection.io"
-    ],
-    [
-        "CVE-2024-34062",
-        "4e613f84ed2ae029559f539464df83fa91feb316",
-        "https://github.com/tqdm/tqdm"
-    ],
-    [
-        "CVE-2024-34064",
-        "0668239dc6b44ef38e7a6c9f91f312fd4ca581cb",
-        "https://github.com/pallets/jinja"
-    ],
-    [
-        "CVE-2024-34069",
-        "3386395b24c7371db11a5b8eaac0c91da5362692",
-        "https://github.com/pallets/werkzeug"
-    ],
-    [
-        "CVE-2024-34073",
-        "2d873d53f708ea570fc2e2a6974f8c3097fe9df5",
-        "https://github.com/aws/sagemaker-python-sdk"
-    ],
-    [
-        "CVE-2024-34074",
-        "65b3c42635038cdff17d3109be6c373bac004829",
-        "https://github.com/frappe/frappe"
-    ],
-    [
-        "CVE-2024-34078",
-        "48db42fc5143d0140c32d929c46b802f96913550",
-        "https://github.com/matthiask/html-sanitizer"
-    ],
-    [
-        "CVE-2024-34083",
-        "b3a4a2c6ecfd228856a20d637dc383541fcdbfda",
-        "https://github.com/aio-libs/aiosmtpd"
-    ],
-    [
-        "CVE-2024-34359",
-        "b454f40a9a1787b2b5659cd2cb00819d983185df",
-        "https://github.com/abetlen/llama-cpp-python"
-    ],
-    [
-        "CVE-2024-34707",
-        "f640aedc69c848d3d1be57f0300fc40033ff6423",
-        "https://github.com/nautobot/nautobot"
-    ],
-    [
-        "CVE-2024-35178",
-        "79fbf801c5908f4d1d9bc90004b74cfaaeeed2df",
-        "https://github.com/jupyter-server/jupyter_server"
-    ],
-    [
-        "CVE-2024-35180",
-        "d41207cbb82afc56ea79e84db532608aa24ab4aa",
-        "https://github.com/ome/omero-web"
-    ],
-    [
-        "CVE-2024-35184",
-        "ed05b40ba461641b1b59b0a92f51f3f6a66ce180",
-        "https://github.com/paperless-ngx/paperless-ngx"
-    ],
-    [
-        "CVE-2024-35195",
-        "a58d7f2ffb4d00b46dca2d70a3932a0b37e22fac",
-        "https://github.com/psf/requests"
-    ],
-    [
-        "CVE-2024-35225",
-        "7abc9dc5bbb0b4b440548a5375261b8b8192fc22",
-        "https://github.com/jupyterhub/jupyter-server-proxy"
-    ],
-    [
-        "CVE-2024-35228",
-        "284f75a6f91f7ab18cc304d7d34f33b559ae37b1",
-        "https://github.com/wagtail/wagtail"
     ],
     [
         "CVE-2024-3568",
@@ -4655,134 +3785,9 @@
         "https://github.com/scrapy/scrapy"
     ],
     [
-        "CVE-2024-36105",
-        "0c08d7a19ad1740be3cb0b2e6d9d64f6537176f7",
-        "https://github.com/dbt-labs/dbt-core"
-    ],
-    [
-        "CVE-2024-36110",
-        "7737b47e7f7ddbfec7b1418c724598363718d522",
-        "https://github.com/ansibleguy/webui"
-    ],
-    [
-        "CVE-2024-3651",
-        "1d365e17e10d72d0b7876316fc7b9ca0eebdd38d",
-        "https://github.com/kjd/idna"
-    ],
-    [
-        "CVE-2024-37168",
-        "674f4e351a619fd4532f84ae6dff96b8ee4e1ed3",
-        "https://github.com/grpc/grpc-node"
-    ],
-    [
-        "CVE-2024-37300",
-        "d1aea05fa89f2beae15ab0fa0b0d071030f79654",
-        "https://github.com/jupyterhub/oauthenticator"
-    ],
-    [
-        "CVE-2024-37301",
-        "a1edd39d33d1bdf75c31ea01c317547be90ca074",
-        "https://github.com/adfinis/document-merge-service"
-    ],
-    [
-        "CVE-2024-37889",
-        "2c1e6d5b7ec8b2d6f660b260e3c5f4d3eaaa613f",
-        "https://github.com/TreyWW/MyFinances"
-    ],
-    [
-        "CVE-2024-37891",
-        "accff72ecc2f6cf5a76d9570198a93ac7c90270e",
-        "https://github.com/urllib3/urllib3"
-    ],
-    [
         "CVE-2024-3848",
         "f8d51e21523238280ebcfdb378612afd7844eca8",
         "https://github.com/mlflow/mlflow"
-    ],
-    [
-        "CVE-2024-38519",
-        "5ce582448ececb8d9c30c8c31f58330090ced03a",
-        "https://github.com/yt-dlp/yt-dlp"
-    ],
-    [
-        "CVE-2024-38522",
-        "2bbeae78a24ca2cd893f32a1812f5f6634cb21b6",
-        "https://github.com/scidsg/hushline"
-    ],
-    [
-        "CVE-2024-38537",
-        "868c4d629760572192bd61db34f5a4458ed12005",
-        "https://github.com/ethyca/fides"
-    ],
-    [
-        "CVE-2024-3924",
-        "88702d876383f7200eccf67e28ba00500dc804bb",
-        "https://github.com/huggingface/text-generation-inference"
-    ],
-    [
-        "CVE-2024-39303",
-        "b6a7eace155fa0feaf01b4ac36165a9c5e63bfdd",
-        "https://github.com/WeblateOrg/weblate"
-    ],
-    [
-        "CVE-2024-39689",
-        "bd8153872e9c6fc98f4023df9c2deaffea2fa463",
-        "https://github.com/certifi/python-certifi"
-    ],
-    [
-        "CVE-2024-39903",
-        "df2fd66a7f4e8ffd36e8678697a8a4f76760dc54",
-        "https://github.com/widgetti/solara"
-    ],
-    [
-        "CVE-2024-39905",
-        "0b0b23b9717b40ed4f8715720b199417c8e89750",
-        "https://github.com/Cog-Creators/Red-DiscordBot"
-    ],
-    [
-        "CVE-2024-4030",
-        "66f8bb76a15e64a1bb7688b177ed29e26230fdee",
-        "https://github.com/python/cpython"
-    ],
-    [
-        "CVE-2024-4030",
-        "81939dad77001556c527485d31a2d0f4a759033e",
-        "https://github.com/python/cpython"
-    ],
-    [
-        "CVE-2024-4030",
-        "8ed546679524140d8282175411fd141fe7df070d",
-        "https://github.com/python/cpython"
-    ],
-    [
-        "CVE-2024-4030",
-        "94591dca510c796c7d40e9b4167ea56f2fdf28ca",
-        "https://github.com/python/cpython"
-    ],
-    [
-        "CVE-2024-4032",
-        "40d75c2b7f5c67e254d0a025e0f2e2c7ada7f69f",
-        "https://github.com/python/cpython"
-    ],
-    [
-        "CVE-2024-40627",
-        "9588109ff651f7ffc92687129c4956126443fb8c",
-        "https://github.com/busykoala/fastapi-opa"
-    ],
-    [
-        "CVE-2024-40647",
-        "763e40aa4cb57ecced467f48f78f335c87e9bdff",
-        "https://github.com/getsentry/sentry-python"
-    ],
-    [
-        "CVE-2024-41124",
-        "033f3b68126eabbb2040ce16e2c3a2ce17437fbd",
-        "https://github.com/ARPSyndicate/puncia"
-    ],
-    [
-        "CVE-2024-41129",
-        "fea6d2072435a62170d4c01272572f1a7e916e61",
-        "https://github.com/canonical/operator"
     ],
     [
         "CVE-2024-4253",
@@ -4815,11 +3820,6 @@
         "https://github.com/stitionai/devika"
     ],
     [
-        "CVE-2024-5547",
-        "6acce21fb08c3d1123ef05df6a33912bf0ee77c2",
-        "https://github.com/stitionai/devika"
-    ],
-    [
         "CVE-2024-5548",
         "6acce21fb08c3d1123ef05df6a33912bf0ee77c2",
         "https://github.com/stitionai/devika"
@@ -4833,11 +3833,6 @@
         "CVE-2024-5569",
         "fd604bd34f0343472521a36da1fbd22e793e14fd",
         "https://github.com/jaraco/zipp"
-    ],
-    [
-        "CVE-2024-5642",
-        "39258d3595300bc7b952854c915f63ae2d4b9c3e",
-        "https://github.com/python/cpython"
     ],
     [
         "CVE-2024-5711",
