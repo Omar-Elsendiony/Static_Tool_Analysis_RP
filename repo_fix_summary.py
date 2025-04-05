@@ -14,7 +14,7 @@ def analyze_commit_changes(repo_path, commit_id):
     try:
         # Ensure we're at the right commit
         subprocess.run(["git", "-C", repo_path, "checkout", commit_id], 
-                      check=True, capture_output=True)
+                    check=True, capture_output=True)
         
         # Get commit details
         commit_info = subprocess.run(
@@ -168,7 +168,7 @@ if __name__ == "__main__":
     repo_playground = "."
     repo_name = "django"
     commit_id = "9305c0e12d43c4df999c3301a1f0c742264a657e"
-    
+
     repo_path = os.path.join(repo_playground, repo_name)
     
     # Analyze the commit
