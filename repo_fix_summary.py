@@ -162,7 +162,7 @@ def postprocessing(analysis, repo_name, repo_path):
     ####################### POSTPROCESSING ########################
     valid_files_fix = []
     for file_path, _ in analysis['files'].items():
-        if ".py"  not in file_path:
+        if ".py"  not in file_path or "test" in file_path:
             continue
         valid_files_fix.append(file_path)
 
