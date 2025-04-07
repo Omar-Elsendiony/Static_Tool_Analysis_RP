@@ -162,7 +162,7 @@ def postprocessing(analysis, repo_name, repo_path):
     ####################### POSTPROCESSING ########################
     valid_files_fix = []
     for file_path, _ in analysis['files'].items():
-        if ".rst"  in file_path or ".md"  in file_path or "test" in file_path:
+        if ".py"  not in file_path:
             continue
         valid_files_fix.append(file_path)
 
@@ -178,7 +178,7 @@ def postprocessing(analysis, repo_name, repo_path):
     
     for file_path in valid_files_fix:
         src_path = os.path.join(repo_path, file_path)
-        dst_path = os.path.join(SPECIFIC_COMMIT_EDITED_FILES_CONTENT_PATH, file_path.split("/")[-1])
+        dst_path = os.path.join(SPECIFIC_COMMIT_EDITED_FILES_CONTENT_PATH, file_path.split("/")[-1].split('.')[0] + "_fix.py")
         import shutil
         # copy the contents of the demo.py file to  a new file called demo1.py
         shutil.copyfile(src_path, dst_path)
@@ -219,7 +219,6 @@ if __name__ == "__main__":
         # subprocess.run(["git", "-C", repo_path, "checkout", "HEAD^"],
         #     check=True, capture_output=True)
         postprocessing(analysis, repo_name, repo_path)
-        print("ok")
         number += 1
         if (number == 2):
             break
