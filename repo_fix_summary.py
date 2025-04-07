@@ -214,10 +214,12 @@ if __name__ == "__main__":
         analysis = analyze_commit_changes(repo_path, commit_id)
         
         # Save analysis to file
-        save_analysis_to_file(analysis, f"{repo_name}_{commit_id[:7]}_analysis.json")
+        # save_analysis_to_file(analysis, f"{repo_name}_{commit_id[:7]}_analysis.json")
         
+        # subprocess.run(["git", "-C", repo_path, "checkout", "HEAD^"],
+        #     check=True, capture_output=True)
         postprocessing(analysis, repo_name, repo_path)
-        
+        print("ok")
         number += 1
         if (number == 2):
             break
