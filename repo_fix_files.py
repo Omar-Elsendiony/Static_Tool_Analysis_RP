@@ -166,7 +166,7 @@ def postprocessing(analysis, repo_name, repo_path):
             continue
         valid_files_fix.append(file_path)
 
-    BASE_REPOS_EDITED_FILES_CONTENT_PATH = "repos_edited_files"
+    BASE_REPOS_EDITED_FILES_CONTENT_PATH = "repos_fixed_files"
     SPECIFIC_REPOS_EDITED_FILES_CONTENT_PATH = os.path.join(BASE_REPOS_EDITED_FILES_CONTENT_PATH, repo_name)
     SPECIFIC_COMMIT_EDITED_FILES_CONTENT_PATH = os.path.join(SPECIFIC_REPOS_EDITED_FILES_CONTENT_PATH, commit_id[:7])
     if not os.path.exists(BASE_REPOS_EDITED_FILES_CONTENT_PATH):

@@ -1650,11 +1650,6 @@
         "https://github.com/aresch/rencode"
     ],
     [
-        "CVE-2021-41087",
-        "f2c57d1e0f15e3ffbeac531829c696b72ecc4290",
-        "https://github.com/in-toto/in-toto-golang"
-    ],
-    [
         "CVE-2021-41124",
         "2b253e57fe64ec575079c8cdc99fe2013502ea31",
         "https://github.com/scrapy-plugins/scrapy-splash"
